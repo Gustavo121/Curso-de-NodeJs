@@ -9,10 +9,10 @@ const path = require("path");
 
 //  console.log("Pasta criada com sucesso!");
 // });
-
+/*
 // Criar um arquivo
 fs.writeFile(
-  path.join(__dirname, "/test", "text.txt"),
+  path.join(__dirname, "/test", "test.txt"),
   "hello node!",
   (error) => {
     if (error) {
@@ -32,6 +32,20 @@ fs.appendFile(
       return console.log("Error: ", error);
     }
 
-    console.log("Arquivo modificado com sucesso!")
+    console.log("Arquivo modificado com sucesso!");
   }
-)
+);
+
+// Ler arquivo
+fs.readFile(
+  path.join(__dirname, "/test", "test.txt"), 
+  "utf8",
+  (error, data) => {
+    if (error) {
+      return console.log("Erro: ", error);
+    }
+
+    console.log(data) 
+  }
+);
+*/
