@@ -1,3 +1,4 @@
+/*
 const path = require("path");
 
 // Apenas o nome do arquivo atual
@@ -14,3 +15,4 @@ console.log(path.parse(__filename));
 
 // Juntar caminhos de arquivos
 console.log(path.join(__dirname, "teste", "test.html"));
+*/
